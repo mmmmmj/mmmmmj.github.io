@@ -1,0 +1,21 @@
+{
+    "liveSassCompile.settings.formats":[
+       {
+           "format": "compact",
+           "extensionName": ".css",
+           "savePath": "~/../"
+       }
+   ],
+   "liveSassCompile.settings.excludeList": [
+      "**/node_modules/**",
+      "**/css/scss/mixin.scss",
+      "./css/scss/mixin.scss",
+      "css/scss/mixin.scss",
+      ".vscode/**"
+   ],
+   "liveSassCompile.settings.generateMap": false,
+   "liveSassCompile.settings.autoprefix": [
+       "> 1%",
+       "last 2 versions"
+   ]
+}
